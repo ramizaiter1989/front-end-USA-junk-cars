@@ -9,20 +9,20 @@ const steps = [
     icon: ClipboardList,
     number: '01',
     title: 'Tell Us About Your Car',
-    desc: 'Fill out our 60-second form — year, make, model, condition. No photos required. We accept any condition: running, dead, totaled, flooded, or burned.',
-    detail: 'Running or not, title or no title — we buy it.',
+    desc: 'Fill out our 60-second form: year, make, model, condition. No photos required. We accept any condition: running, dead, totaled, flooded, or burned.',
+    detail: 'Running or not, title or no title, we buy it.',
   },
   {
     icon: Phone,
     number: '02',
     title: 'Get Your Instant Offer',
-    desc: 'Receive your guaranteed cash offer by phone or text within minutes. Our price is transparent — we show you exactly how your vehicle\'s value is calculated.',
+    desc: 'Receive your guaranteed cash offer by phone or text within minutes. Our price is transparent: we show you exactly how your vehicle\'s value is calculated.',
     detail: 'Guaranteed price. No bait-and-switch.',
   },
   {
     icon: Truck,
     number: '03',
-    title: 'We Come To You — Free',
+    title: 'We Come To You, Free',
     desc: 'Schedule a pickup time that works for you. Same-day and next-day options available across Detroit, Dearborn, Warren, Pontiac, and all Metro Detroit.',
     detail: '100% free towing, always. No deductions.',
   },
@@ -30,7 +30,7 @@ const steps = [
     icon: Banknote,
     number: '04',
     title: 'Get Paid on the Spot',
-    desc: 'When we pick up your car, you get paid immediately — cash in hand. No waiting for checks that might bounce, no wire transfer delays.',
+    desc: 'When we pick up your car, you get paid immediately: cash in hand. No waiting for checks that might bounce, no wire transfer delays.',
     detail: 'Cash on pickup. Every time.',
   },
 ]
@@ -61,7 +61,7 @@ export default function HowItWorks() {
             <span className="text-gradient-navy">Has Never Been Easier</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            From first call to cash in hand — most Detroit customers complete the entire process in under 3 hours.
+            From first call to cash in hand, most Detroit customers complete the entire process in under 3 hours.
           </p>
         </motion.div>
 
@@ -124,7 +124,7 @@ export default function HowItWorks() {
                 <span className="text-gradient-navy">in Metro Detroit</span>
               </h3>
               <p className="text-muted-foreground mb-6">
-                No wheels? Stuck in a backyard? No problem. Our tow truck drivers handle any situation — and it never costs you a dime.
+                No wheels? Stuck in a backyard? No problem. Our tow truck drivers handle any situation, and it never costs you a dime.
               </p>
               <a
                 href="tel:+12484172552"

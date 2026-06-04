@@ -17,7 +17,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: 'Sell My Junk Car Online | Cash for Junk Cars Detroit & Michigan | Up to $1,000',
   description:
-    'Sell your junk car in Detroit, Michigan fast. Get instant cash offer up to $1,000, free towing, same-day pickup. We buy junk cars near you — running or not. Call (248) 417-2552.',
+    'Sell your junk car in Detroit, Michigan fast. Get instant cash offer up to $1,000, free towing, same-day pickup. We buy junk cars near you, running or not. Call (248) 417-2552.',
   keywords: [
     'sell my junk car Detroit',
     'cash for junk cars near me',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
         url: '/brand/logo-og.png',
         width: 1024,
         height: 682,
-        alt: 'SellMyJunkCar — cash for junk cars in Detroit and Michigan',
+        alt: 'SellMyJunkCar, cash for junk cars in Detroit and Michigan',
         type: 'image/png',
       },
     ],

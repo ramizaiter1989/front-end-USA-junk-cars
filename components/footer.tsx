@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h2 className="font-display text-2xl font-bold text-foreground mb-3">
-                Sell My Junk Car Online — Detroit &amp; Michigan
+                Sell My Junk Car Online, Detroit &amp; Michigan
               </h2>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 SellMyJunkCar.online is Michigan&apos;s premier junk car buying platform serving Detroit,
@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Detroit&apos;s trusted junk car buyer. Instant offers, free towing, cash on pickup — 7 days a week.
+              Detroit&apos;s trusted junk car buyer. Instant offers, free towing, cash on pickup, 7 days a week.
             </p>
             <div className="flex gap-2">
               {[
@@ -150,7 +150,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground text-center sm:text-left">
-            &copy; 2025 SellMyJunkCar.online — Detroit, Michigan. All rights reserved.
+            &copy; 2025 SellMyJunkCar.online, Detroit, Michigan. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>

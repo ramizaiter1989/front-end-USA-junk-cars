@@ -9,7 +9,7 @@ const reviews = [
     name: 'Marcus T.',
     city: 'Detroit, MI',
     rating: 5,
-    text: 'Called at 9am, they picked up my dead 2008 Chevy Impala by noon and paid me $650 cash on the spot. No games, no last-minute lowball. Best junk car experience I\'ve ever had.',
+    text: 'Called around 9 on a Tuesday about my Impala that had been dead in the driveway for months. They were here before lunch and paid $650 cash. Price did not change when they showed up.',
     car: '2008 Chevy Impala',
     paid: '$650',
   },
@@ -17,7 +17,7 @@ const reviews = [
     name: 'Sandra K.',
     city: 'Dearborn, MI',
     rating: 5,
-    text: "I didn't have the title and was worried I couldn't sell. They walked me through the whole Michigan process step by step. Got $400 for my old Ford Explorer same day. Amazing.",
+    text: "I didn't have the title and honestly thought I was out of luck. They told me what I needed from the Secretary of State over the phone. Explorer was picked up same day and I got $400.",
     car: '2005 Ford Explorer',
     paid: '$400',
   },
@@ -25,7 +25,7 @@ const reviews = [
     name: 'James R.',
     city: 'Warren, MI',
     rating: 5,
-    text: 'Quoted me $550 online, showed up exactly on time, paid exactly $550. No surprise deductions, no last-minute excuses. These guys are the real deal. Already recommended to three neighbors.',
+    text: 'They quoted $550 when I called. Showed up when they said they would and handed me $550. My wife already called them about her old van.',
     car: '2003 Dodge Ram',
     paid: '$550',
   },
@@ -33,7 +33,7 @@ const reviews = [
     name: 'Angela M.',
     city: 'Pontiac, MI',
     rating: 5,
-    text: 'My car was sitting in the backyard with no wheels for two years. They sent a flatbed truck, handled everything, and I walked away with $300 cash. No extra charge for the difficult pickup!',
+    text: 'Grand Prix sat in the backyard forever, no tires even. Flatbed came out, did not charge me extra for how bad it was. $300 cash and I did not have to mess with it anymore.',
     car: '2001 Pontiac Grand Prix',
     paid: '$300',
   },
@@ -41,7 +41,7 @@ const reviews = [
     name: 'Tyrone B.',
     city: 'Southfield, MI',
     rating: 5,
-    text: 'I called three junk car places. These guys offered $200 more than anyone else AND included free towing. Picked up within 4 hours. 100% recommend for anyone in Metro Detroit.',
+    text: 'I got two other quotes first. These guys came in a little higher and towing was free. Sierra was gone in about four hours.',
     car: '2006 GMC Sierra',
     paid: '$800',
   },
@@ -49,7 +49,7 @@ const reviews = [
     name: 'Patricia L.',
     city: 'Livonia, MI',
     rating: 5,
-    text: 'Super smooth process. Filled out the form online, got a call in 5 minutes, had cash in my hand the same afternoon. The driver was professional and courteous. Exactly what was promised.',
+    text: 'Filled out the form on my lunch break at work. They called back pretty quick. Driver was polite. Had cash by the end of the day.',
     car: '2004 Honda Accord',
     paid: '$475',
   },
@@ -72,14 +72,14 @@ export default function ReviewsSection() {
         >
           <div className="inline-flex items-center gap-2 bg-accent/10 px-4 py-2 rounded-full border border-accent/20 mb-4">
             <Star className="w-4 h-4 text-accent fill-accent" />
-            <span className="text-xs font-semibold text-accent uppercase tracking-wider">4.9 Average — 1,247 Reviews</span>
+            <span className="text-xs font-semibold text-accent uppercase tracking-wider">4.9 Average · 1,247 Reviews</span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl font-black text-foreground mb-4 text-balance">
             Real Detroit Customers.<br />
             <span className="text-gradient-navy">Real Cash. Real Results.</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don&apos;t take our word for it — here&apos;s what your Michigan neighbors are saying.
+            Don&apos;t take our word for it. Here&apos;s what your Michigan neighbors are saying.
           </p>
         </motion.div>
 
@@ -142,7 +142,7 @@ export default function ReviewsSection() {
                 Join <span className="text-gradient">12,400+</span> Happy<br />Michigan Sellers
               </h3>
               <p className="text-muted-foreground mb-4 max-w-sm">
-                From first call to cash in hand — most customers are done in less than 4 hours.
+                From first call to cash in hand, most customers are done in less than 4 hours.
               </p>
               <a
                 href="#get-offer"

@@ -77,7 +77,7 @@ export default function StatsSection() {
             <span className="text-gradient">Junk Car Buyers</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-lg">
-            Real numbers. Real people. Real cash — delivered fast across Detroit and all of Michigan.
+            Real numbers. Real people. Real cash, delivered fast across Detroit and all of Michigan.
           </p>
         </motion.div>
 
@@ -110,19 +110,19 @@ export default function StatsSection() {
             {
               name: 'Marcus T.',
               city: 'Detroit, MI',
-              text: 'Called at 9am, they picked up my dead Chevy Impala by noon and paid me $650 cash on the spot. No games, no lowball.',
+              text: 'Called around 9 about my dead Impala. Picked up before lunch, $650 cash. Nobody tried to change the price at the door.',
               stars: 5,
             },
             {
               name: 'Sandra K.',
               city: 'Dearborn, MI',
-              text: "Didn't have the title and they walked me through the whole process. Got $400 for my old Ford Explorer same day. Amazing service.",
+              text: "No title and I didn't know what to do. They explained the SOS stuff on the phone. $400 for my Explorer same day.",
               stars: 5,
             },
             {
               name: 'James R.',
               city: 'Warren, MI',
-              text: 'Quoted me $550 online, showed up on time, paid exactly $550. No surprises, no last minute excuses. Will recommend to everyone.',
+              text: 'Said $550 on the phone, showed up on time, paid $550. No weird fees when they got here.',
               stars: 5,
             },
           ].map((review, i) => (

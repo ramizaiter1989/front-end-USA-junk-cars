@@ -82,7 +82,7 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg"
             >
-              We buy junk cars across Detroit &amp; Michigan — <strong className="text-foreground">running or not</strong>.
+              We buy junk cars across Detroit &amp; Michigan, <strong className="text-foreground">running or not</strong>.
               Get an instant offer, free same-day towing, and up to{' '}
               <strong className="text-accent">$1,000 cash</strong> in your hand. No title? No problem.
             </motion.p>
@@ -344,7 +344,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/50 to-transparent" />
               <div className="absolute bottom-4 left-4">
                 <span className="bg-accent/90 text-accent-foreground px-3 py-1.5 rounded-xl text-xs font-bold">
-                  Any Condition — We Buy It
+                  Any Condition, We Buy It
                 </span>
               </div>
             </div>

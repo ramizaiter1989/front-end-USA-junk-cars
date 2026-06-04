@@ -46,7 +46,7 @@ export default function PricingSection() {
             <span className="text-gradient">Junk Car Worth?</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            No mystery. No lowball surprises at pickup. Here&apos;s exactly how we calculate your junk car value — and what you can realistically expect to receive.
+            No mystery. No lowball surprises at pickup. Here&apos;s exactly how we calculate your junk car value and what you can realistically expect to receive.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function PricingSection() {
             className="bg-card rounded-3xl p-6 sm:p-8 border border-border shadow-sm"
           >
             <h3 className="font-display text-2xl font-bold text-foreground mb-2">Cash Offer Ranges</h3>
-            <p className="text-sm text-muted-foreground mb-6">Based on condition — Metro Detroit area prices</p>
+            <p className="text-sm text-muted-foreground mb-6">Based on condition, Metro Detroit area prices</p>
             <div className="space-y-3">
               {rangeData.map((item, i) => (
                 <motion.div
@@ -79,7 +79,7 @@ export default function PricingSection() {
             <div className="mt-4 flex items-start gap-2 p-3 rounded-xl bg-muted/50 border border-border">
               <Info className="w-4 h-4 text-muted-foreground shrink-0 mt-0.5" />
               <p className="text-xs text-muted-foreground">
-                Final prices depend on metal market rates, your specific vehicle, and demand in your area. Call for an exact quote — no obligation.
+                Final prices depend on metal market rates, your specific vehicle, and demand in your area. Call for an exact quote, no obligation.
               </p>
             </div>
           </motion.div>
@@ -139,7 +139,7 @@ export default function PricingSection() {
                 Michigan Title Help<br />Included Free
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Missing your title? Over 35% of junk cars in Detroit have title issues. We guide you through every step — lost title affidavit, Secretary of State filings, lien releases. We&apos;ve done it thousands of times.
+                Missing your title? Over 35% of junk cars in Detroit have title issues. We guide you through every step: lost title affidavit, Secretary of State filings, lien releases. We&apos;ve done it thousands of times.
               </p>
               <ul className="space-y-2 mb-6">
                 {[

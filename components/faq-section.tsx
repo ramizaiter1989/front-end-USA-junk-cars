@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: 'Do you buy junk cars without a title in Michigan?',
-    a: 'Yes, we buy junk cars with or without a title in Michigan. If you\'ve lost your title, we\'ll help you navigate the Secretary of State process for a duplicate — or we can accept alternate documentation in some cases. Don\'t let a missing title stop you from getting cash.',
+    a: 'Yes, we buy junk cars with or without a title in Michigan. If you\'ve lost your title, we\'ll help you navigate the Secretary of State process for a duplicate, or we can accept alternate documentation in some cases. Don\'t let a missing title stop you from getting cash.',
   },
   {
     q: 'How does junk car pricing work?',
@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     q: 'Is towing really free? No hidden fees?',
-    a: 'Absolutely free. We never charge towing fees, fuel surcharges, or administrative fees. The offer we quote is exactly what you receive — cash in hand at pickup. No deductions unless the vehicle condition radically differs from your description.',
+    a: 'Absolutely free. We never charge towing fees, fuel surcharges, or administrative fees. The offer we quote is exactly what you receive: cash in hand at pickup. No deductions unless the vehicle condition radically differs from your description.',
   },
   {
     q: 'What documents do I need to sell a junk car in Michigan?',
-    a: 'In Michigan, you\'ll need: (1) Valid photo ID (driver\'s license), (2) Vehicle title if available — signed on the back. If you don\'t have the title, we\'ll guide you through the alternatives. We recommend also notifying your insurance company and the Secretary of State after the sale.',
+    a: 'In Michigan, you\'ll need: (1) Valid photo ID (driver\'s license), (2) Vehicle title if available, signed on the back. If you don\'t have the title, we\'ll guide you through the alternatives. We recommend also notifying your insurance company and the Secretary of State after the sale.',
   },
   {
     q: 'How do I avoid junk car scams in Detroit?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: 'Can you pick up a car that won\'t start or has no wheels?',
-    a: 'Yes! Our flatbed tow trucks are equipped to handle cars in any condition — no wheels, no engine, stuck in a garage, backyard, parking lot, or street. No extra charge for challenging pickups. Just tell us the situation when you call.',
+    a: 'Yes! Our flatbed tow trucks are equipped to handle cars in any condition: no wheels, no engine, stuck in a garage, backyard, parking lot, or street. No extra charge for challenging pickups. Just tell us the situation when you call.',
   },
   {
     q: 'How do I cancel insurance after selling my junk car in Michigan?',
@@ -111,7 +111,7 @@ export default function FAQSection() {
             About <span className="text-gradient-navy">Selling Your Junk Car</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            From pricing to title issues — we answer the questions Detroit car owners ask most.
+            From pricing to title issues, we answer the questions Detroit car owners ask most.
           </p>
         </motion.div>
 
@@ -132,7 +132,7 @@ export default function FAQSection() {
             Still have questions? We&apos;re here 7 days a week.
           </h3>
           <p className="text-primary-foreground/80 mb-6">
-            Speak with a real person — no robots, no call centers. Our Detroit-based team knows Michigan junk car laws inside and out.
+            Speak with a real person, not a call center script. Our Detroit-based team knows Michigan junk car laws inside and out.
           </p>
           <a
             href="tel:+12484172552"

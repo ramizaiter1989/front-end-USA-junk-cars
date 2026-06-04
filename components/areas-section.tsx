@@ -45,7 +45,7 @@ export default function AreasSection() {
             <span className="text-gradient">Across All of Michigan</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            From downtown Detroit to suburban neighborhoods — if you&apos;re in Michigan, we come to you. Free towing always.
+            From downtown Detroit to suburban neighborhoods: if you&apos;re in Michigan, we come to you. Free towing always.
           </p>
         </motion.div>
 
@@ -81,8 +81,8 @@ export default function AreasSection() {
           Don&apos;t see your city? Call{' '}
           <a href="tel:+12484172552" className="text-primary font-semibold hover:underline">
             (248) 417-2552
-          </a>{' '}
-          — we likely cover your area too.
+          </a>
+          . We likely cover your area too.
         </motion.p>
       </div>
     </section>
