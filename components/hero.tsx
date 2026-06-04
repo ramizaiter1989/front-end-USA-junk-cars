@@ -34,7 +34,7 @@ export default function Hero() {
           src="/images/detroit-skyline.png"
           alt="Detroit Michigan skyline at night"
           fill
-          className="object-cover object-center opacity-15"
+          className="object-cover object-center opacity-75"
           priority
           sizes="100vw"
         />

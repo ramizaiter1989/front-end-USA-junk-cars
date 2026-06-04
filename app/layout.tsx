@@ -42,6 +42,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://sellmyjunkcar.online',
   },
+  icons: {
+    icon: [
+      { url: '/brand/logo-square.png', sizes: '1024x1024', type: 'image/png' },
+      { url: '/brand/logo-square.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [{ url: '/brand/logo-square.png', sizes: '180x180', type: 'image/png' }],
+    shortcut: '/brand/logo-square.png',
+  },
   openGraph: {
     title: 'Sell My Junk Car | Cash Up to $1,000 | Detroit & Michigan',
     description:
@@ -50,12 +58,23 @@ export const metadata: Metadata = {
     siteName: 'SellMyJunkCar.online',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/brand/logo-og.png',
+        width: 1024,
+        height: 682,
+        alt: 'SellMyJunkCar — cash for junk cars in Detroit and Michigan',
+        type: 'image/png',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sell My Junk Car | Cash Up to $1,000 | Detroit Michigan',
     description: 'Get instant cash for your junk car in Detroit & Michigan. Free towing, same-day pickup.',
+    images: ['/brand/logo-og.png'],
   },
+  applicationName: 'SellMyJunkCar.online',
   robots: {
     index: true,
     follow: true,
@@ -86,33 +105,64 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${syne.variable} bg-background`}>
       <head>
         <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/brand/logo-square.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="SellMyJunkCar" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
-              name: 'SellMyJunkCar.online',
-              description: 'We buy junk cars in Detroit and Michigan for instant cash up to $1,000.',
-              url: 'https://sellmyjunkcar.online',
-              telephone: '+12484172552',
-              priceRange: '$100 - $1000',
-              areaServed: ['Detroit', 'Michigan', 'Dearborn', 'Warren', 'Sterling Heights', 'Ann Arbor', 'Flint', 'Lansing'],
-              serviceType: ['Junk Car Buying', 'Cash for Cars', 'Free Towing', 'Same Day Pickup'],
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'Detroit',
-                addressRegion: 'MI',
-                addressCountry: 'US',
+            __html: JSON.stringify([
+              {
+                '@context': 'https://schema.org',
+                '@type': 'Organization',
+                '@id': 'https://sellmyjunkcar.online/#organization',
+                name: 'SellMyJunkCar',
+                alternateName: 'SellMyJunkCar.online',
+                url: 'https://sellmyjunkcar.online',
+                logo: {
+                  '@type': 'ImageObject',
+                  url: 'https://sellmyjunkcar.online/brand/logo-square.png',
+                  width: 1024,
+                  height: 1024,
+                },
+                image: 'https://sellmyjunkcar.online/brand/logo-og.png',
               },
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: '4.9',
-                reviewCount: '1247',
+              {
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                '@id': 'https://sellmyjunkcar.online/#website',
+                url: 'https://sellmyjunkcar.online',
+                name: 'SellMyJunkCar.online',
+                publisher: { '@id': 'https://sellmyjunkcar.online/#organization' },
               },
-            }),
+              {
+                '@context': 'https://schema.org',
+                '@type': 'LocalBusiness',
+                '@id': 'https://sellmyjunkcar.online/#localbusiness',
+                name: 'SellMyJunkCar.online',
+                description: 'We buy junk cars in Detroit and Michigan for instant cash up to $1,000.',
+                url: 'https://sellmyjunkcar.online',
+                logo: 'https://sellmyjunkcar.online/brand/logo-square.png',
+                image: 'https://sellmyjunkcar.online/brand/logo-og.png',
+                telephone: '+12484172552',
+                priceRange: '$100 - $1000',
+                areaServed: ['Detroit', 'Michigan', 'Dearborn', 'Warren', 'Sterling Heights', 'Ann Arbor', 'Flint', 'Lansing'],
+                serviceType: ['Junk Car Buying', 'Cash for Cars', 'Free Towing', 'Same Day Pickup'],
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Detroit',
+                  addressRegion: 'MI',
+                  addressCountry: 'US',
+                },
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: '4.9',
+                  reviewCount: '1247',
+                },
+                parentOrganization: { '@id': 'https://sellmyjunkcar.online/#organization' },
+              },
+            ]),
           }}
         />
       </head>

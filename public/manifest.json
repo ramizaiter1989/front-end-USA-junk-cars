@@ -4,15 +4,21 @@
   "description": "Sell your junk car in Detroit & Michigan. Instant cash offer up to $1,000. Free towing. Same-day pickup.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F8FAFC",
+  "background_color": "#000000",
   "theme_color": "#1E3A5F",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/brand/logo-square.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/logo-square.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "categories": ["automotive", "finance", "shopping"],
