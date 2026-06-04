@@ -1,0 +1,34 @@
+{
+  "name": "SellMyJunkCar.online — Detroit Michigan",
+  "short_name": "SellMyJunkCar",
+  "description": "Sell your junk car in Detroit & Michigan. Instant cash offer up to $1,000. Free towing. Same-day pickup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#1E3A5F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["automotive", "finance", "shopping"],
+  "lang": "en-US",
+  "shortcuts": [
+    {
+      "name": "Get Free Offer",
+      "short_name": "Get Offer",
+      "description": "Get an instant cash offer for your junk car",
+      "url": "/#get-offer"
+    },
+    {
+      "name": "Call Now",
+      "short_name": "Call",
+      "description": "Call (248) 417-2552 for an instant quote",
+      "url": "tel:+12484172552"
+    }
+  ]
+}
